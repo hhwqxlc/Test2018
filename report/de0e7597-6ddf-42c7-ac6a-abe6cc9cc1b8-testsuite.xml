@@ -1,0 +1,62 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1534575376247" stop="1534575376321">
+  <name>test_aa</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1534575376247" status="failed" stop="1534575376317">
+      <name>Test.test001</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_aa.Test object at 0x0000000003AC98D0&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    @allure.step('我是测试步骤001')
+    def test001(self):
+        allure.attach('执行步骤', '我是测试步骤001的描述～～～')
+        print("我被执行了")
+&gt;       assert 0
+E       assert 0
+
+Scripts\test_aa.py:11: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="7648-MainThread"/>
+        <label name="host" value="USER-20180311ZM"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1534575376250" status="failed" stop="1534575376273">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments>
+            <attachment source="a6b24b21-bb73-4c14-a6b1-3bbab9d2a733-attachment.txt" title="执行步骤" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1534575376319" status="passed" stop="1534575376321">
+      <name>Test.test002</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7648-MainThread"/>
+        <label name="host" value="USER-20180311ZM"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1534575376321" status="passed" stop="1534575376321">
+          <name>我是测试步骤002</name>
+          <title>我是测试步骤002</title>
+          <attachments>
+            <attachment source="309d33fd-8583-4a3c-a6b4-33ec03a9f8f1-attachment.txt" title="执行步骤" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

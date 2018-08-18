@@ -1,0 +1,91 @@
+{
+  "uid" : "c4652745da87824c",
+  "name" : "Test.test002",
+  "fullName" : "test_aa.Test.test002",
+  "historyId" : "c3d657a7e32a394e8789a30dcf9de152",
+  "time" : {
+    "start" : 1534575376319,
+    "stop" : 1534575376321,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我是测试步骤002",
+      "time" : {
+        "start" : 1534575376321,
+        "stop" : 1534575376321,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a16a7bcde02d8b",
+        "name" : "执行步骤",
+        "source" : "a16a7bcde02d8b.txt",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "USER-20180311ZM"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7648-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_aa"
+  }, {
+    "name" : "testClass",
+    "value" : "test_aa"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test.test002"
+  }, {
+    "name" : "package",
+    "value" : "test_aa"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4652745da87824c.json",
+  "parameterValues" : [ ]
+}
