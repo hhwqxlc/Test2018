@@ -10,6 +10,6 @@ class Test():
     @allure.step('我是测试步骤002')
     def test002(self):
         allure.attach('执行步骤', '我是测试步骤002的描述～～～')
-        print("我被执行了")
+        print("我被执行了02")
         assert 1
     
