@@ -1,4 +1,4 @@
-import allure
+﻿import allure
 import pytest
 class Test():
     @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
@@ -12,5 +12,4 @@ class Test():
         allure.attach('执行步骤', '我是测试步骤002的描述～～～')
         print("我被执行了")
         assert 1
-     def  test003(self):
-        print("我被执行了")
+    
